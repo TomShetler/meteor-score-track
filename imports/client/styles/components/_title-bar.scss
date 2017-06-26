@@ -1,9 +1,14 @@
 .title-bar {
-  background: #e35557;
+  background: #87cefa;
   color: white;
 }
 
 .title-bar__subTitle {
   font-size: 1.3rem;
   font-weight: 400;
+}
+
+.title-bar__logo {
+  max-height: 50px;
+  border-radius: 50%;
 }

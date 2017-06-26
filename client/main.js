@@ -14,7 +14,7 @@ Meteor.startup(() => {
       }
     }).fetch();
     let positionedPlayers = calculatePlayerPositions(players);
-    let title = 'Score Tracker';
+    let title = 'Man City Score Tracker';
     ReactDOM.render(
       <App title={title} players={positionedPlayers}/>,
       document.getElementById('app')

@@ -12,6 +12,7 @@ export default class TitleBar extends React.Component {
       <div className="title-bar">
         <div className="wrapper">
           <h1>{this.props.title}</h1>
+          <img className="title-bar__logo" src="/img/Manchester_City_2016.png" />
           {this.renderSubTitle()}
         </div>
       </div>
